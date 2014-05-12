@@ -1,0 +1,74 @@
+<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only"> Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">AngularJS YO</a>
+		</div>
+		<div class="navbar-collapse collapse pull-right"  role="navigation">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a ng-href="#">Home</a></li>
+			<li><a ng-href="#">About</a></li>
+			<li><a ng-href="#">Contact</a></li>
+		  </ul>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row marketing">
+		<h2>What is angularJS?</h2>
+		<p>Angularjs is a client-side MVC / MVVM framework build in JavaScript. It is embraces extending HTML into a more expressive and readable format.</p>
+		<h3>MVC</h3>
+		<p>MVC meaning Model-View-Controller.</p>
+		<h4>Directive</h4>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">ng-model</h3>
+			</div>
+			<div class="panel-body">
+				<p>My name is <b>{{name}}</b></p>
+			</div>
+		</div>
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h3 class="panel-title">ng-bind</h3> 
+			</div>
+			<div class="panel-body">
+				<p>I am a <input type="text" ng-model='inputValue'/> <b>{{inputValue}}</b></p> 
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">ng-repeat</h3>
+			</div>
+			<div class="panel-body">
+				<ul>
+					<li ng-repeat="language in awesomeThings">{{language.name}}</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+	  <!--<h4>HTML5 Boilerplate</h4>
+	  <p>
+		HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+	  </p>
+
+	  <h4>Angular</h4>
+	  <p>
+		AngularJS is a toolset for building the framework most suited to your application development.
+	  </p>
+
+	  <h4>Karma</h4>
+	  <p>Spectacular Test Runner for JavaScript.</p>-->
+	</div>
+</div>
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+</div>
