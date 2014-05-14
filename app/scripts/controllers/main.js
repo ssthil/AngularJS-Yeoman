@@ -21,4 +21,18 @@ var app = angular.module('angularjsYoApp', []);
 	];
 	
   });
+  //Clearing the entered name on submit using data binding.
+   app.controller('NameCtrl', function ($scope){
+        $scope.names = ['Senthil', 'Surya', 'Swasthika'];
+
+		$scope.addName = function() {
+			$scope.names.push($scope.enteredName);
+			$scope.enteredName = '';
+		};
+		
+		$scope.removeName = function(name){
+			var i = $scope.names.indexOf(name);
+			$scope.names.splice(i,1);
+		}
+      });
   

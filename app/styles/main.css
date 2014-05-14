@@ -23,7 +23,8 @@ body {
   line-height: 40px;
   padding-bottom: 19px;
 }
-
+span.label{cursor:pointer;}
+span.label:hover{background:#3366ee;}
 /* Custom page footer */
 .footer {
   padding-top: 19px;

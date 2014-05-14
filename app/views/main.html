@@ -69,6 +69,20 @@
 				</table>
 			</div>
 		</div>
+		<div class="panel panel-info" ng-controller="NameCtrl">
+			<div class="panel-heading">
+			<h3 class="panel-title">Binding data on submit</h3>
+			</div>
+			<div class="panel-body">
+				<ul style="max-width:200px">
+					<li ng-repeat="name in names">{{name}}<span ng-click="removeName(name)" class="label label-warning pull-right">Delete</span></li>
+				</ul>
+				<form ng-submit="addName()">
+					<input type="text" ng-model="enteredName">
+					<input type="submit" value="add">
+				</form>
+			</div>
+		</div>
 		
 		
 		
