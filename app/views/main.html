@@ -83,6 +83,31 @@
 				</form>
 			</div>
 		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">fetching JSON Data</h3>
+			</div>
+			<div class="panel-body" ng-controller="SupplierName">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Supplier ID</th>
+							<th>Customer Name</th>
+							<th>City</th>
+							<th>Country</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="name in api">
+							<td>{{name.supplierID}}</td>
+							<td>{{name.contactName}}</td>
+							<td>{{name.city}}</td>
+							<td>{{name.country}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 		
 		
 		

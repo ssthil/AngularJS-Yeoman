@@ -1,0 +1,146 @@
+[ { "city" : "Londona",
+    "contactName" : "Charlotte Cooper",
+    "country" : "UK",
+    "supplierID" : "1"
+  },
+  { "city" : "New Orleans",
+    "contactName" : "Shelley Burke",
+    "country" : "USA",
+    "supplierID" : "2"
+  },
+  { "city" : "Ann Arbor",
+    "contactName" : "Regina Murphy",
+    "country" : "USA",
+    "supplierID" : "3"
+  },
+  { "city" : "Tokyo",
+    "contactName" : "Yoshi Nagase",
+    "country" : "Japan",
+    "supplierID" : "4"
+  },
+  { "city" : "Oviedo",
+    "contactName" : "Antonio del Valle Saavedra",
+    "country" : "Spain",
+    "supplierID" : "5"
+  },
+  { "city" : "Osaka",
+    "contactName" : "Mayumi Ohno",
+    "country" : "Japan",
+    "supplierID" : "6"
+  },
+  { "city" : "Melbourne",
+    "contactName" : "Ian Devling",
+    "country" : "Australia",
+    "supplierID" : "7"
+  },
+  { "city" : "Manchester",
+    "contactName" : "Peter Wilson",
+    "country" : "UK",
+    "supplierID" : "8"
+  },
+  { "city" : "G?teborg",
+    "contactName" : "Lars Peterson",
+    "country" : "Sweden",
+    "supplierID" : "9"
+  },
+  { "city" : "S?o Paulo",
+    "contactName" : "Carlos Diaz",
+    "country" : "Brazil",
+    "supplierID" : "10"
+  },
+  { "city" : "Berlin",
+    "contactName" : "Petra Winkler", 
+    "country" : "Germany",
+    "supplierID" : "11"
+  },
+  { "city" : "Frankfurt",
+    "contactName" : "Martin Bein",
+    "country" : "Germany",
+    "supplierID" : "12"
+  },
+  { "city" : "Cuxhaven",
+    "contactName" : "Sven Petersen",
+    "country" : "Germany",
+    "supplierID" : "13"
+  },
+  { "city" : "Ravenna",
+    "contactName" : "Elio Rossi",
+    "country" : "Italy",
+    "supplierID" : "14"
+  },
+  { "city" : "Sandvika",
+    "contactName" : "Beate Vileid",
+    "country" : "Norway",
+    "supplierID" : "15"
+  },
+  { "city" : "Bend",
+    "contactName" : "Cheryl Saylor",
+    "country" : "USA",
+    "supplierID" : "16"
+  },
+  { "city" : "Stockholm",
+    "contactName" : "Michael Bj?rn",
+    "country" : "Sweden",
+    "supplierID" : "17"
+  },
+  { "city" : "Paris",
+    "contactName" : "Guyl?ne Nodier",
+    "country" : "France",
+    "supplierID" : "18"
+  },
+  { "city" : "Boston",
+    "contactName" : "Robb Merchant",
+    "country" : "USA",
+    "supplierID" : "19"
+  },
+  { "city" : "Singapore",
+    "contactName" : "Chandra Leka",
+    "country" : "Singapore",
+    "supplierID" : "20"
+  },
+  { "city" : "Lyngby",
+    "contactName" : "Niels Petersen",
+    "country" : "Denmark",
+    "supplierID" : "21"
+  },
+  { "city" : "Zaandam",
+    "contactName" : "Dirk Luchte",
+    "country" : "Netherlands",
+    "supplierID" : "22"
+  },
+  { "city" : "Lappeenranta",
+    "contactName" : "Anne Heikkonen",
+    "country" : "Finland",
+    "supplierID" : "23"
+  },
+  { "city" : "Sydney",
+    "contactName" : "Wendy Mackenzie",
+    "country" : "Australia",
+    "supplierID" : "24"
+  },
+  { "city" : "Montral",
+    "contactName" : "Jean-Guy Lauzon",
+    "country" : "Canada",
+    "supplierID" : "25"
+  },
+  { "city" : "Salerno",
+    "contactName" : "Giovanni Giudici", 
+    "country" : "Italy",
+    "supplierID" : "26"
+  },
+  { "city" : "Montceau",
+    "contactName" : "Marie Delamare",
+    "country" : "France",
+    "supplierID" : "27"
+  },
+  { "city" : "Annecy",
+    "contactName" : "Eliane Noz",
+    "country" : "France",
+    "supplierID" : "28"
+  },
+  { "city" : "Ste-Hyacinthe",
+    "contactName" : "Chantal Goulet",
+    "country" : "Canada",
+    "supplierID" : "29"
+  }
+]
