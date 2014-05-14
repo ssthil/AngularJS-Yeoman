@@ -50,6 +50,23 @@
 				<ul>
 					<li ng-repeat="language in awesomeThings">{{language.name}}</li>
 				</ul>
+				<p><span class="label label-default">bootstrap table model</span></p>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Phone Number</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="person in persons">
+							<td>{{person.name}}</td>
+							<td>{{person.email}}</td>
+							<td>{{person.phone}}</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 		
