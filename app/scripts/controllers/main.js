@@ -35,9 +35,9 @@ var app = angular.module('angularjsYoApp', []);
 			$scope.names.splice(i,1);
 		};
       });
-app.controller('SupplierName', function($scope, $http){
+app.controller('SupplierName', ['$scope','$http', function($scope, $http){
 	$http.get('scripts/controllers/api.json').success(function(data){
 		$scope.api = data;
 	});
-});
+}]);
   
